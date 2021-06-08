@@ -17,7 +17,7 @@ public class ValueFuzzingController
     @Autowired
     private GetService getService;
 
-    @GetMapping("/{value]")
+    @GetMapping("/{value}")
     public String getHiddenValuePath(@PathVariable String value)
     {
 
